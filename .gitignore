@@ -1,0 +1,32 @@
+# Core Terraform directories
+.terraform/
+
+# Terraform state files (Never commit these; they contain sensitive data and secrets)
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude variable files (They usually contain sensitive passwords or private keys)
+*.tfvars
+*.tfvars.json
+
+# Ignore override files (Used for local adjustments, usually not checked in)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore transient lock files created during terraform apply
+.terraform.tfstate.lock.info
+
+# (Optional) If you want to force-include a specific .tfvars file, un-comment below:
+# !example.tfvars
+
+# (Optional) Ignore the local CLI configuration file
+.terraformrc
+terraform.rc
+day-01/.terraform.lock.hcl
+day-02/.terraform.lock.hcl
