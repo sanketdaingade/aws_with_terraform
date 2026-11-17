@@ -6,4 +6,4 @@ instance_type = var.instance_type
 tags = {
   Name = "web_app"
 }
-}  
+}      
