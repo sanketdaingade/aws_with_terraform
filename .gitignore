@@ -3,3 +3,7 @@
 *.tfstate.*
 crash.log
 *.tfvars
+# SSH Private Keys
+custom-key
+*.pem
+custom-key.pub
